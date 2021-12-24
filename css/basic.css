@@ -1,17 +1,28 @@
 @charset "utf-8";
+
 body {
-	font-size: 13px; 
-	line-height: 22px; 
-	margin: 0 auto;
-	background-color: black;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 auto;
+    margin-top: -13px;
+    background-color: black;
 }
-body,html{
-	height: 100%;
+
+html,
+body {
+    scroll-behavior: smooth;
 }
-p,a{
-	color: #DDDDDD;
-	text-decoration: none;
+
+a {
+    text-decoration: none;
 }
-footer,section{
-	margin:  0 20px;
+
+footer,
+section {
+    margin: 0 20px;
 }
+
+/* 變更默認字型色彩 */
+/* * {
+    color: #DDDDDD;
+} */
