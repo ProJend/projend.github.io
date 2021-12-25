@@ -1,3 +1,6 @@
 // JavaScript Document
-var ifm= document.getElementById("site-show");
-ifm.height=document.documentElement.clientHeight;
+window.onload = function () {
+    var audio = document.getElementById('music');
+    audio.play();
+    //audio.pause();
+}

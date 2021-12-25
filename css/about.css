@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#site-show {
+    text-align: center;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}

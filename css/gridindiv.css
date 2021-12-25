@@ -1,0 +1,21 @@
+@charset"utf-8";
+
+.parent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid aqua; */
+    padding: 10px;
+    margin: auto;
+}
+
+.screenshot {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}

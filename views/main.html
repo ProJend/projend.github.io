@@ -1,50 +1,71 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<!-- TemplateBeginEditable name="doctitle" -->
-<title>main</title>
-<!-- TemplateEndEditable -->
-<link href="../css/basic.css" rel="stylesheet" type="text/css">
-	
-<link href="../css/main.css" rel="stylesheet" type="text/css">
-<link href="http://at.alicdn.com/t/font_2658048_nmpnm8b687.css" rel="stylesheet" type="text/css">
-<link href="../js/iframeHeightAutomatically.js" type="text/javascript">
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
+	<meta charset="utf-8">
+	<title>ProJend's UWP</title>
+	<link rel="icon" href="../assets/IMG_1463.png" type="image/x-icon">
+	<link href="../css/basic.css" rel="stylesheet" type="text/css">
+	<link href="../css/template.css" rel="stylesheet" type="text/css">
+	<link href="../css/gridindiv.css" rel="stylesheet" type="text/css">
+	<link href="http://at.alicdn.com/t/font_2658048_nmpnm8b687.css" rel="stylesheet" type="text/css">
+	<link href="../js/iframeHeightAutomatically.js" type="text/javascript">
+	<bgsound src="../audio/Brand4Dictate.mp3" loop="-1"></bgsound>
 </head>
 
 <body>
 	<header id="site-header">
-  		<nav id="nav">
-    		<li><a href="home.html" target="site-show">主页</a></li>
-    		<li><a href="xuezi.html" target="site-show">真爱</a></li>
-			<li><a href="xuezi.html" target="site-show">日语基础</a></li>
-    		<li><a href="about.html" target="site-show">关于</a></li>
-    	</nav>
-		<a href="https://github.com/ProJend/MyUWPIntroduction" id="logo">
-			<img src="../assets/IMG_1463.png"/>
+		<nav id="tab">
+			<li><a href="main.html" target="_self" id="selectedtab">主页</a></li>
+			<li><a href="https://github.com/ProJend/Avicii.UWP" target="_blank">真爱</a></li>
+			<li><a href="https://github.com/ProJend/Cherryknot.UWP" target="_blank">樱花结</a></li>
+			<li><a href="about.html" target="_self">关于</a></li>
+		</nav>
+		<a href="https://github.com/ProJend/MyUWPIntroduction" id="logo" target="_blank">
+			<img src="../assets/IMG_1463.png" />
 			<p>ProJend</p>
 		</a>
 	</header>
-    <!--<iframe src="home.html" name="site-show" scrolling="no"></iframe>-->
+	<!--<iframe src="home.html" name="site-show" scrolling="no"></iframe>-->
 	<section id="site-show">
-		<p>adad</p>	
+		<div class="parent">
+			<div class="grid-item">
+				<figure>
+					<img class="screenshot" src="../assets/屏幕截图(13).png">
+				</figure>
+			</div>
+			<div class="grid-item" style="margin-left:0;">
+				<h style="font-size: 60px;">True Love UWP</h>
+				<p style="font-size: 25px;">A UWP client full of memories of Avicii.</p>
+			</div>
+		</div>
+		<div class="parent">
+			<div class="grid-item" style="margin-right:0; text-align: right;">
+				<h style="font-size: 60px;">Cherryknot UWP</h>
+				<p style="font-size: 25px;">日本語五十音圖</p>
+			</div>
+			<div class="grid-item">
+				<figure>
+					<img class="screenshot" src="../assets/屏幕截图(22).png">
+				</figure>
+			</div>
+		</div>
 	</section>
-    <section id="site-nav">
-	<div id="footerlayoutroot">
+	<section id="site-footer-social">
+		<div id="footerlayoutroot">
 			<nav id="sociallinks">
 				<ul>
 					<li><a class="profile" href="https://github.com/projend"><i class="iconfont icon-github"></i></a></li>
-					<li><a class="profile" href="#"><i class="iconfont icon-telegram"></i></a></li>
+					<li><a class="profile" href="https://t.me/projendchannel"><i class="iconfont icon-telegram"></i></a></li>
 					<li><a class="profile" href="mailto:projend@outlook.com"><i class="iconfont icon-mail"></i></a></li>
 				</ul>
 			</nav>
 		</div>
 	</section>
 	<footer id="site-footer">
-		<p id="copyright">2021 © ProJend</p>	
+		<p id="copyright">2022 © ProJend</p>
 		<a href="#site-show">To the top <i class="iconfont icon-up"></i></a>
 	</footer>
 </body>
+
 </html>
